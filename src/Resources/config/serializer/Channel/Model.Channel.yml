@@ -1,0 +1,42 @@
+Sylius\Component\Channel\Model\Channel:
+    exclusion_policy: ALL
+    xml_root_name: channel
+    properties:
+        id:
+            expose: true
+            type: integer
+            xml_attribute: true
+            groups: [Default, Detailed]
+        code:
+            expose: true
+            type: string
+            groups: [Default, Detailed, DetailedCart]
+        name:
+            expose: true
+            type: string
+            groups: [Default, Detailed]
+        hostname:
+            expose: true
+            type: string
+            groups: [Detailed]
+        enabled:
+            expose: true
+            type: boolean
+            groups: [Default, Detailed]
+        description:
+            expose: true
+            type: string
+            groups: [Default, Detailed]
+        color:
+            expose: true
+            type: string
+            groups: [Detailed]
+        # Updated property code
+        createdAt:
+            expose: true
+            type: DateTime
+            groups: [Default, Detailed]
+        updatedAt:
+            expose: true
+            type: DateTime
+            groups: [Default, Detailed]

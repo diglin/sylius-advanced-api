@@ -1,0 +1,15 @@
+{
+    "name": "diglin/sylius-advanced-api",
+    "description": "Add additional information required to make the OroCRM integration working. Can be used for other purposes",
+    "require": {
+        "sylius/sylius": "~1.6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvain Rayé",
+            "email": "support@diglin.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

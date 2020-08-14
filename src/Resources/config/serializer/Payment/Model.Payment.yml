@@ -1,0 +1,26 @@
+Sylius\Component\Payment\Model\Payment:
+    exclusion_policy: ALL
+    xml_root_name: payment
+    properties:
+        id:
+            expose: true
+            type: integer
+            xml_attribute: true
+            groups: [Default, Detailed]
+        amount:
+            expose: true
+            type: integer
+            groups: [Default, Detailed]
+        # FIXED property code from currency to currencyCode
+        currencyCode:
+            expose: true
+            type: string
+            groups: [Default, Detailed]
+        # Updated property code
+        state:
+            expose: true
+            type: string
+            groups: [Default, Detailed]
+        method:
+            expose: true
+            groups: [Default, Detailed]

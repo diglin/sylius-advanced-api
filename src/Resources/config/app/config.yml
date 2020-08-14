@@ -1,0 +1,26 @@
+jms_serializer:
+    metadata:
+        directories:
+            sylius-core-extended:
+                namespace_prefix: "Sylius\\Component\\Core"
+                path: "@DiglinSyliusAdvancedApiPlugin/Resources/config/serializer/Core"
+
+            sylius-channel-extended:
+                namespace_prefix: "Sylius\\Component\\Channel"
+                path: "@DiglinSyliusAdvancedApiPlugin/Resources/config/serializer/Channel"
+
+            sylius-customer-extended:
+                namespace_prefix: "Sylius\\Component\\Customer"
+                path: "@DiglinSyliusAdvancedApiPlugin/Resources/config/serializer/Customer"
+
+            sylius-order-extended:
+                namespace_prefix: "Sylius\\Component\\Order"
+                path: "@DiglinSyliusAdvancedApiPlugin/Resources/config/serializer/Order"
+
+            sylius-payment-extended:
+                namespace_prefix: "Sylius\\Component\\Payment"
+                path: "@DiglinSyliusAdvancedApiPlugin/Resources/config/serializer/Payment"
+
+            sylius-addressing-extended:
+                namespace_prefix: "Sylius\\Component\\Addressing"
+                path: "@DiglinSyliusAdvancedApiPlugin/Resources/config/serializer/Addressing"
