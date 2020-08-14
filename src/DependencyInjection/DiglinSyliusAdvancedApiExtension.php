@@ -3,7 +3,7 @@
  * Diglin GmbH - Switzerland.
  *
  * @author      Sylvain Rayé <support at diglin.com>
- * @category    sylius-apiswagger
+ * @category    SyliusAdvancedApi
  * @copyright   2020 - Diglin (https://www.diglin.com)
  */
 
