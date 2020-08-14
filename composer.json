@@ -12,6 +12,7 @@
         }
     ],
     "minimum-stability": "stable",
+    "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
             "Diglin\\SyliusAdvancedApiPlugin\\": "src"
