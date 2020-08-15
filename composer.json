@@ -12,6 +12,7 @@
         }
     ],
     "minimum-stability": "stable",
+    "type": "sylius-plugin",
     "autoload": {
         "psr-4": {
             "Diglin\\SyliusAdvancedApiPlugin\\": "src"

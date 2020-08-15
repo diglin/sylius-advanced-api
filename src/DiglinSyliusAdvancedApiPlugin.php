@@ -9,9 +9,10 @@
 
 namespace Diglin\SyliusAdvancedApiPlugin;
 
+use Sylius\Bundle\CoreBundle\Application\SyliusPluginTrait;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DiglinSyliusAdvancedApiPlugin extends Bundle
+final class DiglinSyliusAdvancedApiPlugin extends Bundle
 {
-
+    use SyliusPluginTrait;
 }
