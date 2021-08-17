@@ -8,28 +8,7 @@ For example, by default, when getting channels through `GET /channels`, you don'
 
 If you still wish to restrict the retrieving of some data, please keep the followings entity properties available for OroCRM to make it works correctly:
 
-## Installation
-
-`composer require diglin/sylius-advanced-api:^1.0`
-
-## Configuration
-
-Add the following into the `config/packages/_sylius.yml`
-
-```yaml
-imports:
-    ...
-    - { resource: "@DiglinSyliusAdvancedApiPlugin/Resources/config/app/config.yml" }
-```
-
-Then clear the sylius cache with the command:
-`php bin/console -e prod cache:clear`
-
-## Knows issues
-
-- If you customized yourself the API and mainly the core API of Sylius, you may have a conflict
-
-### Channel 
+### Channel
 - id
 - code
 - name
@@ -52,7 +31,7 @@ Then clear the sylius cache with the command:
 - updatedAt
 
 ### Order
-- id 
+- id
 - items
 - itemsTotal
 - customer
@@ -72,7 +51,7 @@ Then clear the sylius cache with the command:
 - updatedAt
 
 ### OrderItem
-- id 
+- id
 - quantity
 - unitPrice
 - total
@@ -112,6 +91,27 @@ Then clear the sylius cache with the command:
 - street
 - city
 - postcode
+
+## Installation
+
+`composer require diglin/sylius-advanced-api:^1.0`
+
+## Configuration
+
+Add the following into the `config/packages/_sylius.yml`
+
+```yaml
+imports:
+    ...
+    - { resource: "@DiglinSyliusAdvancedApiPlugin/Resources/config/app/config.yml" }
+```
+
+Then clear the sylius cache with the command:
+`php bin/console -e prod cache:clear`
+
+## Knows issues
+
+- If you customized yourself the API and mainly the core API of Sylius, you may have a conflict
 
 ## License
 
