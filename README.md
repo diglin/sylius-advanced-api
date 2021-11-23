@@ -49,6 +49,9 @@ If you still wish to restrict the retrieving of some data, please keep the follo
 - checkoutCompletedAt
 - createdAt
 - updatedAt
+- channel
+- localeCode
+- checkoutState
 
 ### OrderItem
 - id
