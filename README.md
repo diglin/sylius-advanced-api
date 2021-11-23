@@ -9,91 +9,91 @@ For example, by default, when getting channels through `GET /channels`, you don'
 If you still wish to restrict the retrieving of some data, please keep the followings entity properties available for OroCRM to make it works correctly:
 
 ### Channel
-- id
-- code
-- name
-- enabled
+- id (integer)
+- code (string)
+- name (string)
+- enabled (boolean)
 
-- createdAt
-- updatedAt
+- createdAt (datetime)
+- updatedAt (datetime)
 
 ### Customer
-- id
-- email
-- firstName
-- lastName
-- gender
-- group
-- phoneNumber
-- subscribedToNewsletter
+- id (integer)
+- email (string)
+- firstName (string)
+- lastName (string)
+- gender (string)
+- group (array)
+- phoneNumber (string)
+- subscribedToNewsletter boolean
 
-- createdAt
-- updatedAt
+- createdAt (datetime)
+- updatedAt (datetime)
 
 ### Order
-- id
-- items
-- itemsTotal
-- customer
-- payments
-- shipments
-- adjustments
-- adjustmentsTotal
-- total
-- shippingAddress
-- billingAddress
-- currencyCode
+- id (integer)
+- items (array)
+- itemsTotal (integer)
+- customer (array)
+- payments (array)
+- shipments (array)
+- adjustments (array)
+- adjustmentsTotal (integer)
+- total (integer)
+- shippingAddress (array)
+- billingAddress (array)
+- currencyCode (string)
 
-- number
-- state
-- checkoutCompletedAt
-- createdAt
-- updatedAt
-- channel
-- localeCode
-- checkoutState
+- number (string)
+- state (string)
+- checkoutCompletedAt (datetime)
+- createdAt (datetime)
+- updatedAt (datetime)
+- channel (array)
+- localeCode (string)
+- checkoutState (string)
 
 ### OrderItem
-- id
-- quantity
-- unitPrice
-- total
-- unitsTotal
-- adjusmtents
-- adjusmtentsTotal
-- variant
+- id (integer)
+- quantity (integer)
+- unitPrice (integer)
+- total (integer)
+- unitsTotal (integer)
+- adjusmtents (array)
+- adjusmtentsTotal (integer)
+- variant (array)
 
-- createdAt
-- updatedAt
-- productName
+- createdAt (datetime)
+- updatedAt (datetime)
+- productName (string)
 
 ### Payments
-- id
-- amount
-- state
-- method
-- currencyCode
+- id (integer)
+- amount (integer)
+- state (string)
+- method (array)
+- currencyCode (string)
 
 ### Shipments
-- id
-- state
-- method
+- id (integer)
+- state (string)
+- method (array)
 
 ### Adjustment
-- id
-- type
-- label
-- amount
+- id (integer)
+- type (string)
+- label (string)
+- amount (string)
 
 ### Address
-- id
-- firstName
-- lastName
-- phoneNumber
-- countryCode
-- street
-- city
-- postcode
+- id (integer)
+- firstName (string)
+- lastName (string)
+- phoneNumber (string)
+- countryCode (string)
+- street (string)
+- city (string)
+- postcode (string)
 
 ## Installation
 
