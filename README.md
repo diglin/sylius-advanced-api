@@ -84,6 +84,7 @@ If you still wish to restrict the retrieving of some data, please keep the follo
 - type (string)
 - label (string)
 - amount (string)
+- tracking (string)
 
 ### Address
 - id (integer)
